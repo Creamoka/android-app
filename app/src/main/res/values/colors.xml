@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Highlight Colors -->
+    <color name="highlight1">#006FFD</color>
+    <color name="highlight2">#2897FF</color>
+    <color name="highlight3">#6FBAFF</color>
+    <color name="highlight4">#B4DBFF</color>
+    <color name="highlight5">#EAF2FF</color>
+
+    <!-- Neutral Colors -->
+    <color name="light1">#C5C6CC</color>
+    <color name="light2">#D4D6DD</color>
+    <color name="light3">#E8E9F1</color>
+    <color name="light4">#F8F9FE</color>
+    <color name="light5">#FFFFFF</color>
+
+    <color name="dark1">#1F2024</color>
+    <color name="dark2">#2F3036</color>
+    <color name="dark3">#494A50</color>
+    <color name="dark4">#71727A</color>
+    <color name="dark5">#8F9098</color>
+
+</resources>

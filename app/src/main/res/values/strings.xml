@@ -1,0 +1,58 @@
+<resources>
+    <!-- Splashscreen Resources -->
+    <string name="app_name">Cloud-U</string>
+    <string name="slogan">Smart Learning, Light as the Cloud.</string>
+    <string name="motivation">Enjoy ready-to-learn materials and focus only on become your best self</string>
+
+    <!-- Login Resources -->
+    <string name="header_welcome">Welcome</string>
+    <string name="holderlog_email">Email Address</string>
+    <string name="holderlog_password">Password</string>
+    <string name="forgot">Forgot passoword?</string>
+    <string name="button_login">Login</string>
+    <string name="register_link">Not a student? Register Now</string>
+    <string name="alternative">or continue with</string>
+
+    <!-- Register Resources -->
+    <string name="header_register">Register</string>
+    <string name="sub_register">Create an account to get started</string>
+    <string name="name_req">Name</string>
+    <string name="holderreg_name">Your name</string>
+    <string name="email_req">Email Address</string>
+    <string name="holderreg_email">name@email.com</string>
+    <string name="password_req">Password</string>
+    <string name="holderreg_password">Create a password</string>
+    <string name="holderreg_confirm_passowrd">Confirm Password</string>
+    <string name="terms">I read and agree with the Terms and Conditions and the Privacy Policy.</string>
+
+    <!-- Forgot Password Resources -->
+    <string name="header_forgot">Forgot Password</string>
+    <string name="holderfor_email">Email Address</string>
+    <string name="button_recovery">Recovery Account</string>
+    <string name="remember_link">Remember your account? Login now</string>
+
+    <!-- Dashboard Resources -->
+    <string name="cloudu">Cloud-U</string>
+    <string name="status">College Student</string>
+    <string name="profile">Profile</string>
+
+    <!-- Dashboard Grid Resources -->
+    <string name="grid_item_1">Camera</string>
+    <string name="grid_item_2">Notes</string>
+    <string name="grid_item_3">Favorites</string>
+    <string name="grid_item_4">Messages</string>
+    <string name="grid_item_5">More</string>
+
+    <!-- Dashboard List Resources -->
+    <string name="list_item_1">Pemograman Mobile 1</string>
+    <string name="desc_item_1">note</string>
+    <string name="list_item_2">Object Oriented and Design</string>
+    <string name="desc_item_2">note2</string>
+    <string name="list_item_3">Manajemen Proyek Perangkat Lunak</string>
+    <string name="desc_item_3">note3</string>
+    <string name="list_item_4">Pemograman Berorientasi Objek</string>
+    <string name="desc_item_4">note4</string>
+    <string name="list_item_5">Jaringan Komputer</string>
+    <string name="desc_item_5">note5</string>
+
+</resources>
