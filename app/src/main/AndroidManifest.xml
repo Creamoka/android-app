@@ -23,7 +23,8 @@
     </activity>
         <activity android:name=".login" />
         <activity android:name=".register" />
-        <activity android:name=".forgot_password" />
+        <activity android:name=".forgot_password"/>
+        <activity android:name=".dashboard"/>
 
     </application>
 
