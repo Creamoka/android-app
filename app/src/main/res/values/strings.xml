@@ -24,6 +24,7 @@
     <string name="holderreg_password">Create a password</string>
     <string name="holderreg_confirm_passowrd">Confirm Password</string>
     <string name="terms">I read and agree with the Terms and Conditions and the Privacy Policy.</string>
+    <string name="button_register">Register</string>
 
     <!-- Forgot Password Resources -->
     <string name="header_forgot">Forgot Password</string>

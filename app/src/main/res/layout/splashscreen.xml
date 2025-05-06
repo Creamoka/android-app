@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".splashscreen">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -12,20 +12,23 @@
         android:padding="16dp">
 
         <ImageView
+            android:id="@+id/cloudu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:src="@drawable/cloudu" />
 
         <TextView
+            android:id="@+id/slogan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="24sp"
             android:fontFamily="@font/inter_extrabold"
             android:justificationMode="inter_word"
-            android:text="@string/slogan" />
+            android:text="@string/slogan"
+            android:textSize="24sp" />
 
         <TextView
+            android:id="@+id/motivation"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="18sp"
