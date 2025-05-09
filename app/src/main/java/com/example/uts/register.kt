@@ -53,15 +53,19 @@ class register : AppCompatActivity() {
             return
         }
 
+        // ✅ Simpan ke SharedPreferences
+        val sharedPref = getSharedPreferences("UserData", MODE_PRIVATE)
+        val editor = sharedPref.edit()
+        editor.putString("email", email)
+        editor.putString("password", password)
+        editor.apply()
+
         showToast("Registrasi berhasil!")
 
-        // Delay 1.5 detik agar toast tampil dulu, lalu balik ke login
         Handler(Looper.getMainLooper()).postDelayed({
             finish()
         }, 1500)
     }
 
-    private fun showToast(message: String) {
-        Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
-    }
+    private fun showToast(string: String) {}
 }

@@ -44,16 +44,15 @@
     <string name="grid_item_4">Messages</string>
     <string name="grid_item_5">More</string>
 
-    <!-- Dashboard List Resources -->
-    <string name="list_item_1">Pemograman Mobile 1</string>
+    <!-- Dashboard News Resources -->
+    <string name="list_item_1">Berita 1</string>
     <string name="desc_item_1">note</string>
-    <string name="list_item_2">Object Oriented and Design</string>
+    <string name="list_item_2">Berita 2</string>
     <string name="desc_item_2">note2</string>
-    <string name="list_item_3">Manajemen Proyek Perangkat Lunak</string>
+    <string name="list_item_3">Berita 3</string>
     <string name="desc_item_3">note3</string>
-    <string name="list_item_4">Pemograman Berorientasi Objek</string>
+    <string name="list_item_4">Berita 4</string>
     <string name="desc_item_4">note4</string>
-    <string name="list_item_5">Jaringan Komputer</string>
+    <string name="list_item_5">Berita 5</string>
     <string name="desc_item_5">note5</string>
-
 </resources>

@@ -10,7 +10,7 @@ class login : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.login)  // Pastikan file XML-nya login.xml
+        setContentView(R.layout.login)
 
         // Menghubungkan ID dengan elemen UI
         val emailField = findViewById<EditText>(R.id.holderlog_email)
@@ -25,15 +25,23 @@ class login : AppCompatActivity() {
             val email = emailField.text.toString()
             val password = passwordField.text.toString()
 
-            // Validasi email dan password kosong
             if (email.isEmpty() || password.isEmpty()) {
                 Toast.makeText(this, "Email dan password tidak boleh kosong", Toast.LENGTH_SHORT).show()
             } else {
-                // Tampilkan email dan password (untuk testing)
-                Toast.makeText(this, "Email: $email\nPassword: $password", Toast.LENGTH_SHORT).show()
+                // Ambil data dari SharedPreferences
+                val sharedPref = getSharedPreferences("UserData", MODE_PRIVATE)
+                val registeredEmail = sharedPref.getString("email", null)
+                val registeredPassword = sharedPref.getString("password", null)
 
-                // Menutup aktivitas login supaya tidak bisa kembali ke halaman login
-                finish()
+                if (email == registeredEmail && password == registeredPassword) {
+                    Toast.makeText(this, "Login berhasil!", Toast.LENGTH_SHORT).show()
+
+                    val intent = Intent(this, dashboard::class.java)
+                    startActivity(intent)
+                    finish()
+                } else {
+                    Toast.makeText(this, "Email atau password salah", Toast.LENGTH_SHORT).show()
+                }
             }
         }
 
