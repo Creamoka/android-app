@@ -53,7 +53,7 @@ class register : AppCompatActivity() {
             return
         }
 
-        // ✅ Simpan ke SharedPreferences
+        // Simpan ke SharedPreferences
         val sharedPref = getSharedPreferences("UserData", MODE_PRIVATE)
         val editor = sharedPref.edit()
         editor.putString("email", email)

@@ -47,13 +47,13 @@ class login : AppCompatActivity() {
 
         // Link ke halaman Forgot Password
         forgotPasswordLink.setOnClickListener {
-            val intent = Intent(this, forgot_password::class.java) // Ganti dengan nama activity yang sesuai
+            val intent = Intent(this, forgot_password::class.java)
             startActivity(intent)
         }
 
         // Link ke halaman Register
         registerLink.setOnClickListener {
-            val intent = Intent(this, register::class.java) // Ganti dengan nama activity yang sesuai
+            val intent = Intent(this, register::class.java)
             startActivity(intent)
         }
 
