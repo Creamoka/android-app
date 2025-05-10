@@ -16,7 +16,13 @@ Proyek ini merupakan aplikasi Android sederhana yang dibuat untuk keperluan Ujia
 
 **File:** `login.kt`, `res/layout/login.xml`
 
-### 3. Dashboard
+### 3. Register Activity
+- Form register sederhana dengan `SharedPreferences`.
+- Berpindah ke register jika daftar berhasil.
+
+**File:** `register.kt`, `res/layout/register.xml`
+
+### 4. Dashboard
 - Menampilkan daftar berita menggunakan `RecyclerView`.
 - Setiap item menampilkan gambar, judul, dan deskripsi.
 
